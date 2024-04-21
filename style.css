@@ -1,0 +1,62 @@
+.contenedor{
+    height: 800px;
+    width: 800px;
+    display: flex;
+}
+#buscador{
+    display: flex;
+    justify-content:space-between;
+    height: 40px;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+    width: 800px;
+}
+#btn-login{
+    background-color: darkcyan;
+    color:aliceblue;
+    height: 30px;
+    width: 70px;
+    box-shadow: 8px 4px 8px black;
+}
+#definiciones{
+    display:flexbox;
+    width: 70%
+}
+#contenedor-1{
+    display:flex;
+    border: 2px solid black; 
+    margin: 10px ;
+
+}
+.palabra{
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-like{
+    background-color:palegoldenrod;
+    height: 25px;
+    box-shadow: 8px 8px 8px black;
+}
+.concepto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+#add{
+    width: 30%;
+    text-align: center;
+    border: 2px solid black; 
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+#btn-add{
+    background-color:lightgreen;
+    height: 25px;
+    box-shadow: 8px 8px 8px black;
+}
